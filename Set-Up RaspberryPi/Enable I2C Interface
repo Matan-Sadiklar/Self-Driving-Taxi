@@ -1,0 +1,11 @@
+// Step 1
+  sudo raspi-config
+
+// Step 2
+  Choose interfacing option
+
+// Step 3
+  Select I2C
+
+// Step 4
+  Select Yes until reboot
