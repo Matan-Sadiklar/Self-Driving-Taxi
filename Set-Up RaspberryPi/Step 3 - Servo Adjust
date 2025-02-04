@@ -1,0 +1,25 @@
+// So here we need to set all the servo angles to 0° and then install them, 
+// so that the servo angle is in the middle, no matter which direction to turn.
+
+// Step 1
+
+// To ensure that the servo has been properly set to 0°, 
+// first insert the servo arm into the servo shaft and then 
+// gently rotate the rocker arm to a different angle. 
+
+// This servo arm is just to allow you to clearly see that the servo is rotating.
+
+// Step 2
+  cd ~/picar-x/example
+  sudo python3 servo_zeroing.py
+
+// Step 3
+  // Next, plug the servo cable into the P11 port as follows, 
+  // at the same time you will see the servo arm rotate to a position
+  // (This is the 0° position, which is a random location and may not be
+  // vertical or parallel.).
+
+// Step 4
+  // Now, remove the servo arm, ensuring the servo wire remains connected, 
+  // and do not turn off the power. Then continue the assembly following 
+  // the paper instructions.
