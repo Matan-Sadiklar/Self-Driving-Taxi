@@ -1,0 +1,31 @@
+// Step 1 - Code in Shell
+  sudo apt update
+  sudo apt upgrade
+
+// Step 2
+  sudo apt install git python3-pip python3-setuptools python3-smbus
+
+// Step 3
+  cd ~/
+  git clone -b v2.0 https://github.com/sunfounder/robot-hat.git
+  cd robot-hat
+  sudo python3 setup.py install
+
+// Step 4
+  cd ~/
+  git clone -b picamera2 https://github.com/sunfounder/vilib.git
+  cd vilib
+  sudo python3 install.py
+
+// Step 5
+  cd ~/
+  git clone -b v2.0 https://github.com/sunfounder/picar-x.git --depth 1
+  cd picar-x
+  sudo python3 setup.py install
+
+// Step 6
+  cd ~/picar-x
+  sudo bash i2samp.sh
+
+// Step 7
+  Type 'y' and press enter untill you restart Picar-X
